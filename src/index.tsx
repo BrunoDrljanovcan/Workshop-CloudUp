@@ -21,8 +21,6 @@ interface IProps {
 }
 
 
-
-
 class Index extends React.Component<IProps, IStates> {
 
     constructor(props: IProps) {
@@ -41,7 +39,7 @@ class Index extends React.Component<IProps, IStates> {
         return (
             <div>
                 <img src={this.state.giph} />
-                <button onClick={this._onSave}> Save</button>
+                <button onClick={this._onSave}> Saveee</button>
             </div>
         );
     }
